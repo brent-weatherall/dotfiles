@@ -1,0 +1,27 @@
+#Setup display settings & layout
+~/.config/screenlayout/default.sh &
+
+#polkit session manager
+lxpolkit &
+
+#init X resources
+xrdb ~/.Xresources &
+
+#xautolock config
+~/.config/custom/locker.sh &
+
+#set my desktop background
+feh --bg-fill -z ~/.config/backgrounds/2423753.png &
+
+#launch picom compositor
+picom -b &
+
+#chat clients
+discord &
+element-desktop &
+
+#Pulse Audio system tray
+pasystray &
+
+#Keepassxc password manager
+keepassxc &
