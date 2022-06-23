@@ -1,4 +1,4 @@
 #!/bin/sh
 
 exec xautolock -detectsleep \
-  -time 10 -locker "$HOME/bin/lock"
+  -time 10 -locker "$HOME/.config/custom/lock"
