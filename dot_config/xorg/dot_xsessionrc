@@ -5,7 +5,7 @@
 lxpolkit &
 
 #init X resources
-xrdb ~/.Xresources &
+xrdb ~/.config/xorg/.Xresources &
 
 #xautolock config
 ~/.config/custom/locker.sh &
