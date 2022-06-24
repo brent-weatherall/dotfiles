@@ -58,10 +58,11 @@ beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "/home/bweatherall/bin/kitty"
-editor = os.getenv("EDITOR") or "editor"
+--editor = os.getenv("EDITOR") or "editor"
+editor = "/home/bweatherall/bin/nvim"
 editor_cmd = terminal .. " -e " .. editor
 vscode_cmd = "code"
-neovide_cmd = "neovide"
+neovide_cmd = "/home/bweatherall/bin/neovide"
 
 -- Default modkey.
 -- Usually, Mod4 is the key with a logo between Control and Alt.
