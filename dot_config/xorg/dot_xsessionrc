@@ -16,6 +16,12 @@ feh --bg-fill -z ~/.config/backgrounds/2423753.png &
 #launch picom compositor
 picom -b &
 
+#USB Disk systray
+udiskie -s -n &
+
+#ProtonMail Bridge
+protonmail-bridge --noninteractive --no-window &
+
 #chat clients
 discord &
 element-desktop &
